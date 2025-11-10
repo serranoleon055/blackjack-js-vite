@@ -7,6 +7,6 @@
 export const crearCarta = (carta, turno, divCartasContainer)=>{
     const imgCarta = document.createElement('img');
     imgCarta.classList.add('carta');
-    imgCarta.src = `/public/cartas/${carta}.png`
+    imgCarta.src = `blackjack-js-vite/public/cartas/${carta}.png`
     divCartasContainer[turno].append(imgCarta);
 }
